@@ -1,5 +1,4 @@
 var path = require('path');
-
 module.exports = {
   devtool: 'source-map',
   entry: './src/index.js',
@@ -39,7 +38,7 @@ module.exports = {
         },
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules|build)/,
         loader: 'babel-loader',
       },
