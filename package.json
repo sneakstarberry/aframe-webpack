@@ -1,0 +1,27 @@
+{
+  "name": "aframe5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.13.13",
+    "aframe": "^1.2.0",
+    "aframe-physics-system": "github:n5ro/aframe-physics-system#master",
+    "ammo.js": "0.0.10",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.116.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
