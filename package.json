@@ -12,17 +12,16 @@
   "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.13.13",
     "aframe": "^1.2.0",
     "aframe-physics-system": "github:n5ro/aframe-physics-system#master",
-    "ammo.js": "0.0.10",
+    "ammo.js": "github:mozillareality/ammo.js#hubs/master",
     "babel-loader": "^8.1.0",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "three": "^0.116.1",
     "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
